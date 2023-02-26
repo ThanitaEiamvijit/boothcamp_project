@@ -58,11 +58,11 @@ order_pizza <- function() {
     print("Next Process...")
   }
   
-  # Question 5
+  # Question 4
   print("Please select your payment method: 1.Paypal 2.Credit Card 3.Cash")
   payment <- readline("Your payment method: ")
   
-  # Question 
+  # Question 5
   confirm_order <- readline("Please confirm your order (Yes/No): ")
   
   if(confirm_order == "Yes"){
